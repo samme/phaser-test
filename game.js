@@ -4,7 +4,7 @@ export default class Game extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("grassland", "./assets/grassland.png");
+    this.load.image("grassland", "./assets/grassland-extruded.png");
     this.load.image("fairway", "./assets/fairway.png");
     this.load.image("fairway-green", "./assets/green.png");
     this.load.image("bunkers", "./assets/bunkers.png");
@@ -69,8 +69,6 @@ export default class Game extends Phaser.Scene {
       0.05,
       1
     );
-
-    console.log(this.cameras.main.zoom);
 
     this.tweens.add({
       targets: this.cameras.main,
