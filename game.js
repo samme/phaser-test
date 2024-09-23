@@ -4,7 +4,7 @@ export default class Game extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("grassland", "./assets/grassland-extruded.png");
+    this.load.image("grassland", "./assets/new-extruded.png");
     this.load.image("fairway", "./assets/fairway.png");
     this.load.image("fairway-green", "./assets/green.png");
     this.load.image("bunkers", "./assets/bunkers.png");
