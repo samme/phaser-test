@@ -36,7 +36,7 @@ export default class Game extends Phaser.Scene {
 
       this.groundLayer = this.map.createLayer(
         "Tile Layer 1",
-        [grasslandTileset, fairwayTileset, bunkerTileset],
+        [grasslandTileset],
         0,
         0
       );
