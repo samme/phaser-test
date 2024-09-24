@@ -23,8 +23,8 @@ export default class Game extends Phaser.Scene {
         "grassland",
         128,
         128,
-        2,
-        1
+        1,
+        2
       );
       const fairwayTileset = this.map.addTilesetImage("fairway", "fairway");
       const bunkerTileset = this.map.addTilesetImage("bunkers", "bunkers");
